@@ -4,7 +4,7 @@ function SignupGuide() {
   return (
     
     <section className="mt-5 bg-gray-100 pb-5">
-      <h1 className="pb-5 text-4xl font-bold text-center text-primary py-4">خطوات التسجيل</h1>
+      <h1 className="pb-5 text-4xl font-bold text-center py-4" style={{color: 'rgb(78, 55, 151)'}}>خطوات التسجيل</h1>
       <div className="container">
         <div className="row text-center">
           <div className="col-sm d-flex flex-column align-items-center">

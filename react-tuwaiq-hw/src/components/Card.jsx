@@ -35,7 +35,7 @@ const getEventStyles = (eventType, isExpired) => {
 };
 
 export default function Card(props) {
-  const { eventType, eventTitle, eventLocation, duration, eventDuration, isExpired, isHoverable } = props;
+  const { eventType, eventTitle, eventLocation, duration, eventDuration, isExpired } = props;
   const { borderColor, buttonDisabled, buttonText, buttonColor } = getEventStyles(eventType, isExpired);
 
   return (
