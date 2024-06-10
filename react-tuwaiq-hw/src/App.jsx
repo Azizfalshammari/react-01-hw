@@ -4,18 +4,21 @@ import FilterBar from './components/FilterBar'
 import CoursesCards from './components/CoursesCards'
 import Btn from './components/Btn'
 import SignupGuide from './components/SignupGuide'
-import Footer from './components/Footer'
+import FooterBS from './components/FooterBS'
+import NavbarBS from './components/NavBarBS'
+import HeaderTitle from './components/HeaderTitle'
 function App() {
 
 
   return (
     <>
-    <NavBar/>
+    <NavbarBS/>
+    <HeaderTitle/>
     <FilterBar/>
     <CoursesCards/>
     <Btn/>
     <SignupGuide/>
-    <Footer/>
+    <FooterBS/>
     </>
   )
 }

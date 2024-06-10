@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Btn() {
+function Btn(props) {
   return (
-    <div>Btn</div>
+    <div>{props.buttonText}</div>
   )
 }
 
